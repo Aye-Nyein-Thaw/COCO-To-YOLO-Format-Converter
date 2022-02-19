@@ -99,7 +99,7 @@ def generate_yolo_labels(coco_json_dir, classes, output_folder, include_backgrou
     # make class id, class name mapping dictionary
     class_map = {i['id']: i['name'] for i in  cat_list}
     
-    # save bbox for each image
+    # save label text file for each image
     for img in imgs:
 
         file_name = img['file_name'].split('.')[0]
