@@ -1,4 +1,4 @@
-# COCO-To-YOLO-Format-Converter
+# COCO To YOLO Format Converter
 For converting COCO annotation format to YOLO format.
 
 
