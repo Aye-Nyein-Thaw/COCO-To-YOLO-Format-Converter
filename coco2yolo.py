@@ -120,7 +120,7 @@ def generate_yolo_labels(coco_json_dir, classes, output_folder, include_backgrou
         else:
             continue
 
-        # write txt files for evaluation
+        # write label txt file
         txt_write_dir = os.path.join(output_folder, file_name+'.txt')
         with open(txt_write_dir, 'w') as textfile:
             textfile. write(content)
